@@ -5,8 +5,8 @@ import numpy as np
 
 from flask import Flask, request, jsonify
 
-anx_model = keras.models.load_model("TherapEaseModel.h5")
-dep_model = keras.models.load_model("TherapEaseModel.h5")
+anx_model = keras.models.load_model("anx_model.h5")
+dep_model = keras.models.load_model("dep_model.h5")
 
 def preprocessing(data):
     data_str = data.read().decode('utf-8')
