@@ -10,7 +10,7 @@ In this project we want to help people who have **mental illness** by creating a
 
 
 ## Instalation
-Apk file for app installation can be found [here].
+Apk file for app installation can be found https://drive.google.com/drive/u/1/folders/1ORIXcczLHlcFj8IU_dt7rtRzdzd_aIa4.
 
 ## Documentation
 - [Project Brief](https://1drv.ms/w/s!AvoQ1rDiMU7jhnK3sFd8tNjVY-pU?e=47GhwG).
