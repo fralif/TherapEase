@@ -9,5 +9,5 @@ https://cloud.google.com/sdk/docs/install
 4. Dockerfile, requirements.txt, .dockerignore
 https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
 5. Cloud build & deploy
-gcloud builds submit --tag gcr.io/<project_id>/<function_name>
+gcloud builds submit --tag gcr.io/<project_id>/<function_name> , 
 gcloud run deploy --image gcr.io/<project_id>/<function_name> --platform managed
