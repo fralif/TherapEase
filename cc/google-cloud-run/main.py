@@ -199,7 +199,7 @@ def index():
         return jsonify({"error": "no file"})
 
     try:
-        data = preprocess_data(file)
+        data = preprocessing(file)
         anxprediction = anxpredict(data)
         depprediction = deppredict(data)
         data = [{"anxiety level": int(anxprediction)},{"depression level": int(depprediction)}]
